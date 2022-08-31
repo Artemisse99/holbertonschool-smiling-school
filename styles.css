@@ -1,0 +1,44 @@
+@font-face {
+    font-family: sans-pro;
+    src: url(./fonts/SourceSansPro-Regular.otf);
+  }
+  
+  body {
+    font-family: sans-pro;
+  }
+  
+  header {
+    background-image: url(./images/pic_1.jpg);
+    background-position: 40% 0%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .navbar {
+    justify-content: space-around;
+  }
+  
+  .list-group {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list-group-item {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .header-title {
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  .btn-primary {
+    background-color: #c271ff;
+    border: transparent;
+  }
